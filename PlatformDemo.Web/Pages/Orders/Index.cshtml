@@ -1,6 +1,7 @@
 ﻿@page
 @model PlatformDemo.Web.Pages.Orders.IndexModel
 @{
+	ViewData["Title"] = "Orders";
 }
 
 <div class="container p-3">
@@ -32,7 +33,7 @@
 					<tr>
 						<td width="25%">@obj.Id</td>
 						<td width="25%">@obj.OrderNumber</td>
-						<td width="25%">@obj.Amount</td>
+						<td width="25%">@obj.Amount.ToString("C")</td>
 					</tr>
 				}
 			</tbody>

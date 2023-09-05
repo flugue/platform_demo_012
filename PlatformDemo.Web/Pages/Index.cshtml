@@ -23,7 +23,7 @@
 					Phone Number
 				</th>
 				<th>
-					Orders
+					Number of Orders
 				</th>
 				<th>Actions</th>
 			</tr>
@@ -38,8 +38,8 @@
 					<td>
 						@obj.Orders?.Count()
 					</td>
-					<td width="15%">
-						<div class="w-75 btn-group" role="group">
+					<td width="20%">
+						<div class="w-7 btn-group" role="group">
 							<a asp-page="/Orders/Index" asp-route-id="@obj.Id" class="btn btn-primary mx-2">
 								View Orders
 							</a>

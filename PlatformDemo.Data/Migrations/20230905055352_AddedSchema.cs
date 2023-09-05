@@ -7,7 +7,7 @@
 namespace PlatformDemo.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class AddedDbSchema : Migration
+    public partial class AddedSchema : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -52,17 +52,17 @@ namespace PlatformDemo.Data.Migrations
                 columns: new[] { "Id", "Name", "PhoneNumber" },
                 values: new object[,]
                 {
-                    { 1, "Test Customer 1", "+63123445784" },
-                    { 2, "Test Customer 2", "+63123445784" },
-                    { 3, "Test Customer 3", "+63123445784" },
-                    { 4, "Test Customer 4", "+63123445784" },
-                    { 5, "Test Customer 5", "+63123445784" },
-                    { 6, "Test Customer 6", "+63123445784" },
-                    { 7, "Test Customer 7", "+63123445784" },
-                    { 8, "Test Customer 8", "+63123445784" },
-                    { 9, "Test Customer 9", "+63123445784" },
-                    { 10, "Test Customer 10", "+63123445784" },
-                    { 11, "Test Customer 11", "+63123445784" }
+                    { 1, "Armando Patton", "(236) 513-0630" },
+                    { 2, "Molly Wright", "(329) 973-2452" },
+                    { 3, "Erika Hood", "(282) 752-3677" },
+                    { 4, "Myah Boyle", "(592) 670-0518" },
+                    { 5, "Haiden Pugh", "(337) 834-2577" },
+                    { 6, "Quinn Wise", "(426) 849-3991" },
+                    { 7, "Alyssa Heath", "(641) 251-3768" },
+                    { 8, "Yareli Duke", "(374) 570-4013" },
+                    { 9, "Taniya Brewer", "(844) 498-9272" },
+                    { 10, "Nayeli Todd", "(402) 862-4708" },
+                    { 11, "Alina Weeks", "(992) 494-9494" }
                 });
 
             migrationBuilder.InsertData(
@@ -70,29 +70,29 @@ namespace PlatformDemo.Data.Migrations
                 columns: new[] { "Id", "Amount", "CustomerId", "OrderNumber" },
                 values: new object[,]
                 {
-                    { 1, 617m, 1, "ORDNUM-1" },
-                    { 2, 163m, 2, "ORDNUM-2" },
-                    { 3, 494m, 2, "ORDNUM-3" },
-                    { 4, 113m, 3, "ORDNUM-4" },
-                    { 5, 337m, 3, "ORDNUM-5" },
-                    { 6, 993m, 3, "ORDNUM-6" },
-                    { 7, 51m, 3, "ORDNUM-7" },
-                    { 8, 52m, 4, "ORDNUM-8" },
-                    { 9, 266m, 5, "ORDNUM-9" },
-                    { 10, 463m, 7, "ORDNUM-10" },
-                    { 11, 522m, 7, "ORDNUM-11" },
-                    { 12, 550m, 8, "ORDNUM-12" },
-                    { 13, 804m, 9, "ORDNUM-13" },
-                    { 14, 692m, 9, "ORDNUM-14" },
-                    { 15, 693m, 9, "ORDNUM-15" },
-                    { 16, 893m, 9, "ORDNUM-16" },
-                    { 17, 222m, 9, "ORDNUM-17" },
-                    { 18, 814m, 10, "ORDNUM-18" },
-                    { 19, 13m, 10, "ORDNUM-19" },
-                    { 20, 324m, 11, "ORDNUM-20" },
-                    { 21, 402m, 11, "ORDNUM-21" },
-                    { 22, 463m, 11, "ORDNUM-22" },
-                    { 23, 24m, 11, "ORDNUM-23" }
+                    { 1, 392m, 1, "ORDNUM-001" },
+                    { 2, 442m, 2, "ORDNUM-002" },
+                    { 3, 613m, 2, "ORDNUM-003" },
+                    { 4, 876m, 3, "ORDNUM-004" },
+                    { 5, 820m, 3, "ORDNUM-005" },
+                    { 6, 985m, 3, "ORDNUM-006" },
+                    { 7, 710m, 3, "ORDNUM-007" },
+                    { 8, 267m, 4, "ORDNUM-008" },
+                    { 9, 382m, 5, "ORDNUM-009" },
+                    { 10, 226m, 7, "ORDNUM-010" },
+                    { 11, 316m, 7, "ORDNUM-011" },
+                    { 12, 398m, 8, "ORDNUM-012" },
+                    { 13, 641m, 9, "ORDNUM-013" },
+                    { 14, 578m, 9, "ORDNUM-014" },
+                    { 15, 492m, 9, "ORDNUM-015" },
+                    { 16, 905m, 9, "ORDNUM-016" },
+                    { 17, 279m, 9, "ORDNUM-017" },
+                    { 18, 936m, 10, "ORDNUM-018" },
+                    { 19, 610m, 10, "ORDNUM-019" },
+                    { 20, 281m, 11, "ORDNUM-020" },
+                    { 21, 328m, 11, "ORDNUM-021" },
+                    { 22, 943m, 11, "ORDNUM-022" },
+                    { 23, 578m, 11, "ORDNUM-023" }
                 });
 
             migrationBuilder.CreateIndex(

@@ -11,8 +11,8 @@ using PlatformDemo.Data;
 namespace PlatformDemo.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230905015916_AddedDbSchema")]
-    partial class AddedDbSchema
+    [Migration("20230905055352_AddedSchema")]
+    partial class AddedSchema
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -46,68 +46,68 @@ namespace PlatformDemo.Data.Migrations
                         new
                         {
                             Id = 1,
-                            Name = "Test Customer 1",
-                            PhoneNumber = "+63123445784"
+                            Name = "Armando Patton",
+                            PhoneNumber = "(236) 513-0630"
                         },
                         new
                         {
                             Id = 2,
-                            Name = "Test Customer 2",
-                            PhoneNumber = "+63123445784"
+                            Name = "Molly Wright",
+                            PhoneNumber = "(329) 973-2452"
                         },
                         new
                         {
                             Id = 3,
-                            Name = "Test Customer 3",
-                            PhoneNumber = "+63123445784"
+                            Name = "Erika Hood",
+                            PhoneNumber = "(282) 752-3677"
                         },
                         new
                         {
                             Id = 4,
-                            Name = "Test Customer 4",
-                            PhoneNumber = "+63123445784"
+                            Name = "Myah Boyle",
+                            PhoneNumber = "(592) 670-0518"
                         },
                         new
                         {
                             Id = 5,
-                            Name = "Test Customer 5",
-                            PhoneNumber = "+63123445784"
+                            Name = "Haiden Pugh",
+                            PhoneNumber = "(337) 834-2577"
                         },
                         new
                         {
                             Id = 6,
-                            Name = "Test Customer 6",
-                            PhoneNumber = "+63123445784"
+                            Name = "Quinn Wise",
+                            PhoneNumber = "(426) 849-3991"
                         },
                         new
                         {
                             Id = 7,
-                            Name = "Test Customer 7",
-                            PhoneNumber = "+63123445784"
+                            Name = "Alyssa Heath",
+                            PhoneNumber = "(641) 251-3768"
                         },
                         new
                         {
                             Id = 8,
-                            Name = "Test Customer 8",
-                            PhoneNumber = "+63123445784"
+                            Name = "Yareli Duke",
+                            PhoneNumber = "(374) 570-4013"
                         },
                         new
                         {
                             Id = 9,
-                            Name = "Test Customer 9",
-                            PhoneNumber = "+63123445784"
+                            Name = "Taniya Brewer",
+                            PhoneNumber = "(844) 498-9272"
                         },
                         new
                         {
                             Id = 10,
-                            Name = "Test Customer 10",
-                            PhoneNumber = "+63123445784"
+                            Name = "Nayeli Todd",
+                            PhoneNumber = "(402) 862-4708"
                         },
                         new
                         {
                             Id = 11,
-                            Name = "Test Customer 11",
-                            PhoneNumber = "+63123445784"
+                            Name = "Alina Weeks",
+                            PhoneNumber = "(992) 494-9494"
                         });
                 });
 
@@ -139,163 +139,163 @@ namespace PlatformDemo.Data.Migrations
                         new
                         {
                             Id = 1,
-                            Amount = 617m,
+                            Amount = 392m,
                             CustomerId = 1,
-                            OrderNumber = "ORDNUM-1"
+                            OrderNumber = "ORDNUM-001"
                         },
                         new
                         {
                             Id = 2,
-                            Amount = 163m,
+                            Amount = 442m,
                             CustomerId = 2,
-                            OrderNumber = "ORDNUM-2"
+                            OrderNumber = "ORDNUM-002"
                         },
                         new
                         {
                             Id = 3,
-                            Amount = 494m,
+                            Amount = 613m,
                             CustomerId = 2,
-                            OrderNumber = "ORDNUM-3"
+                            OrderNumber = "ORDNUM-003"
                         },
                         new
                         {
                             Id = 4,
-                            Amount = 113m,
+                            Amount = 876m,
                             CustomerId = 3,
-                            OrderNumber = "ORDNUM-4"
+                            OrderNumber = "ORDNUM-004"
                         },
                         new
                         {
                             Id = 5,
-                            Amount = 337m,
+                            Amount = 820m,
                             CustomerId = 3,
-                            OrderNumber = "ORDNUM-5"
+                            OrderNumber = "ORDNUM-005"
                         },
                         new
                         {
                             Id = 6,
-                            Amount = 993m,
+                            Amount = 985m,
                             CustomerId = 3,
-                            OrderNumber = "ORDNUM-6"
+                            OrderNumber = "ORDNUM-006"
                         },
                         new
                         {
                             Id = 7,
-                            Amount = 51m,
+                            Amount = 710m,
                             CustomerId = 3,
-                            OrderNumber = "ORDNUM-7"
+                            OrderNumber = "ORDNUM-007"
                         },
                         new
                         {
                             Id = 8,
-                            Amount = 52m,
+                            Amount = 267m,
                             CustomerId = 4,
-                            OrderNumber = "ORDNUM-8"
+                            OrderNumber = "ORDNUM-008"
                         },
                         new
                         {
                             Id = 9,
-                            Amount = 266m,
+                            Amount = 382m,
                             CustomerId = 5,
-                            OrderNumber = "ORDNUM-9"
+                            OrderNumber = "ORDNUM-009"
                         },
                         new
                         {
                             Id = 10,
-                            Amount = 463m,
+                            Amount = 226m,
                             CustomerId = 7,
-                            OrderNumber = "ORDNUM-10"
+                            OrderNumber = "ORDNUM-010"
                         },
                         new
                         {
                             Id = 11,
-                            Amount = 522m,
+                            Amount = 316m,
                             CustomerId = 7,
-                            OrderNumber = "ORDNUM-11"
+                            OrderNumber = "ORDNUM-011"
                         },
                         new
                         {
                             Id = 12,
-                            Amount = 550m,
+                            Amount = 398m,
                             CustomerId = 8,
-                            OrderNumber = "ORDNUM-12"
+                            OrderNumber = "ORDNUM-012"
                         },
                         new
                         {
                             Id = 13,
-                            Amount = 804m,
+                            Amount = 641m,
                             CustomerId = 9,
-                            OrderNumber = "ORDNUM-13"
+                            OrderNumber = "ORDNUM-013"
                         },
                         new
                         {
                             Id = 14,
-                            Amount = 692m,
+                            Amount = 578m,
                             CustomerId = 9,
-                            OrderNumber = "ORDNUM-14"
+                            OrderNumber = "ORDNUM-014"
                         },
                         new
                         {
                             Id = 15,
-                            Amount = 693m,
+                            Amount = 492m,
                             CustomerId = 9,
-                            OrderNumber = "ORDNUM-15"
+                            OrderNumber = "ORDNUM-015"
                         },
                         new
                         {
                             Id = 16,
-                            Amount = 893m,
+                            Amount = 905m,
                             CustomerId = 9,
-                            OrderNumber = "ORDNUM-16"
+                            OrderNumber = "ORDNUM-016"
                         },
                         new
                         {
                             Id = 17,
-                            Amount = 222m,
+                            Amount = 279m,
                             CustomerId = 9,
-                            OrderNumber = "ORDNUM-17"
+                            OrderNumber = "ORDNUM-017"
                         },
                         new
                         {
                             Id = 18,
-                            Amount = 814m,
+                            Amount = 936m,
                             CustomerId = 10,
-                            OrderNumber = "ORDNUM-18"
+                            OrderNumber = "ORDNUM-018"
                         },
                         new
                         {
                             Id = 19,
-                            Amount = 13m,
+                            Amount = 610m,
                             CustomerId = 10,
-                            OrderNumber = "ORDNUM-19"
+                            OrderNumber = "ORDNUM-019"
                         },
                         new
                         {
                             Id = 20,
-                            Amount = 324m,
+                            Amount = 281m,
                             CustomerId = 11,
-                            OrderNumber = "ORDNUM-20"
+                            OrderNumber = "ORDNUM-020"
                         },
                         new
                         {
                             Id = 21,
-                            Amount = 402m,
+                            Amount = 328m,
                             CustomerId = 11,
-                            OrderNumber = "ORDNUM-21"
+                            OrderNumber = "ORDNUM-021"
                         },
                         new
                         {
                             Id = 22,
-                            Amount = 463m,
+                            Amount = 943m,
                             CustomerId = 11,
-                            OrderNumber = "ORDNUM-22"
+                            OrderNumber = "ORDNUM-022"
                         },
                         new
                         {
                             Id = 23,
-                            Amount = 24m,
+                            Amount = 578m,
                             CustomerId = 11,
-                            OrderNumber = "ORDNUM-23"
+                            OrderNumber = "ORDNUM-023"
                         });
                 });
 
