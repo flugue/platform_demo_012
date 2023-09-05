@@ -1,6 +1,6 @@
 # PlatformDemo
 
-TEST TASK TO COMPLETE
+**TEST TASK TO COMPLETE**
 
  - Share a link to a new GitHub repository with recruiting@logicimtech.com. 
  - The GitHub repository name is: platform_demo_012. 
